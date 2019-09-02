@@ -5,9 +5,9 @@ for i in range(n):
 print(a)
 flag = False
 for i in range(n-1):
-	if a[i] == a[i+1]:
-    	flag = True
+        if a[i] == a[i+1]:
+            flag = True
 if flag:
-	print("yes")
+    print("yes")
 else:
     print("no")
