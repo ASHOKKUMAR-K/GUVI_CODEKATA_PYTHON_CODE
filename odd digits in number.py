@@ -1,3 +1,4 @@
+#odd digits in number
 n = int(input())
 a=[]
 l = []
