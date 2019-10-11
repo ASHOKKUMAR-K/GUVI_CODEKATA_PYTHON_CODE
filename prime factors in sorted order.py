@@ -1,7 +1,7 @@
 n = int(input())
 def isprime(a):
     flag = True
-    for i in range(2,a//2):
+    for i in range(2,(a//2)+1):
         if a % i == 0:
             flag = False
     return flag
